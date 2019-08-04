@@ -7,7 +7,7 @@ Fork from [mazhuang.org][].
 TinyQiang is released under [Apache-2.0][].
 
 
-[TinyQiang's Blog]: https://tinyqiang.github.io/TinyQiang/
+[TinyQiang's Blog]: https://tinyqiang.github.io/
 [mazhuang.org]: http://github.com/mzlogin/mzlogin.github.io
 
 [Apache-2.0]: https://opensource.org/licenses/Apache-2.0
