@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://shaneking.org
+url: https://tinyqiang.github.io/TinyQiang/
 date_format: "ordinal"
-title: ShaneKing
+title: TinyQiang
 subtitle: "有梦才有精彩！"
-description: "ShaneKing's Blog"
-keywords: ShaneKing, sk, org.shaneking, Azolla, Maogu
+description: "TinyQiang's Blog"
+keywords: ShaneKiTinyQiangng, qiang
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: ShaneKing
+author: TinyQiang
 organization: 爱存不存
-organization_url: https://shaneking.org
-github_username: ShaneKing
+organization_url: https://tinyqiang.github.io/TinyQiang/
+github_username: TinyQiang
 location: Shanghai, China
-email: github@azolla.org
+email: wzq.makeit@qq.com
 
 # ---------------- #
 #    Navigation    #
@@ -77,7 +77,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: ShaneKing/ShaneKing.github.io
+repository: TinyQiang/TinyQiang.github.io
 
 # ---------------- #
 #      Comments    #
@@ -98,8 +98,8 @@ gitment:
         client_secret:
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: ShaneKing
-    repo: ShaneKing.github.io
+    owner: TinyQiang
+    repo: TinyQiang.github.io
     clientID: 9ba380c92e91d2a9b85c
     clientSecret: 9def192ccb6d66bd07e9cdbd5d2a5181a600030c
 # 在使用其它评论组件时可点击显示 Disqus

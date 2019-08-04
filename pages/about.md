@@ -1,14 +1,14 @@
 ---
 layout: page
 title: About
-description: ShaneKing's Blog
-keywords: ShaneKing, sk, org.shaneking, Azolla, Maogu
+description: TinyQiang's Blog
+keywords: TinyQiang, sk, org.TinyQiang, Azolla, Maogu
 comments: false
 menu: About
 permalink: /about/
 ---
 
-这是 **ShaneKing** 的个人博客，始建于2011.10.10，算是个技术类博客吧（毕竟博主是个敲代码的）
+这是 **TinyQiang** 的个人博客，始建于2019.08.04，算是个技术类博客吧（毕竟博主是个敲代码的）
 
 从懵懂的Wordpress，至Java+Bootstrap自建，到现在的静态化Markdown。部分内容也由于格式等原因未能完全迁移
 
@@ -55,4 +55,4 @@ permalink: /about/
 
 
 ## 发表
-- [彭金胜.一种新型的Web国际化解决思路及实践[J].软件,2018,39(07):143-145+193.](http://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2018&filename=RJZZ201807030&v=MDM1MzlCTnlmUmRMRzRIOW5NcUk5R1pJUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSTE9mWStkckZ5emhVYnI=)
+
