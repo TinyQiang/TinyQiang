@@ -50,23 +50,23 @@ paginate_path: 'page:num'
 # Navigation
 navs:
   -
-    href: /
+    href: /TinyQiang/
     label: Home
 
   -
-    href: /open-source
+    href: /TinyQiang/open-source
     label: Open-Source
 
   -
-    href: /blog
+    href: /TinyQiang/blog
     label: Blog
 
   -
-    href: /bookmark
+    href: /TinyQiang/bookmark
     label: Bookmark
 
   -
-    href: /about
+    href: /TinyQiang/about
     label: About
 
 # Sidebar to show popular repo
