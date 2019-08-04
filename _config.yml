@@ -1,121 +1,88 @@
-# ---------------- #
-#   Main Configs   #
-# ---------------- #
-baseurl:
-url: https://tinyqiang.github.io/TinyQiang/
-date_format: "ordinal"
-title: TinyQiang
-subtitle: "越是憧憬，越是要风雨兼程！"
-description: "TinyQiang's Blog"
-keywords: TinyQiang, qiang
-timezone: Asia/Shanghai
-encoding: "utf-8"
-side_bar_repo_limit: 5
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# ---------------- #
-#      Author      #
-# ---------------- #
-author: TinyQiang
-organization: 爱存不存
-organization_url: https://tinyqiang.github.io/TinyQiang/
-github_username: TinyQiang
-location: Shanghai, China
-email: wzq.makeit@qq.com
+# Site settings
+title: I am Chuan !
+name: DONGChuan
+email: dongchuan55@gmail.com
+location: Nice, France
+company: Gfi Informatique
+company_url: http://www.gfi.fr/en/
+github_url: https://github.com/DONGChuan
+description: This is personnel website of DONG Chuan
+favicon: favicon.png # Image must be in assets/images
 
-# ---------------- #
-#    Navigation    #
-# ---------------- #
+url: http://dongchuan.github.io # the base hostname & protocol for your site
+
+## Gem
+gems:
+  - jekyll-paginate
+  - jekyll-geo-pattern
+  - rouge
+  - kramdown
+  - jekyll-github-metadata
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+source:      .
+destination: ./_site
+
+quiet:    false
+defaults: []
+
+kramdown:
+  input: GFM
+  enable_coderay: true
+
+# Disque
+disque: httpdongchuangithubio.disqus.com
+
+# Pagination
+paginate: 10
+paginate_path: 'page:num'
+
+# Navigation
 navs:
   -
-    href: /about/
+    href: /
+    label: Home
+
+  -
+    href: /open-source
+    label: Open-Source
+
+  -
+    href: /blog
+    label: Blog
+
+  -
+    href: /bookmark
+    label: Bookmark
+
+  -
+    href: /about
     label: About
 
-  -
-    href: /archives/
-    label: Archives
+# Sidebar to show popular repo
+side_bar_repo_limit: 5 # Number of repos to show
 
-  -
-    href: /categories/
-    label: Categories
+# Google Analytics
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-72165600-1'
 
-  -
-    href: /favorites/
-    label: Favorites
 
-  -
-    href: /projects/
-    label: Projects
-
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
-
-# ---------------- #
-#      Jekyll      #
-# ---------------- #
-markdown: kramdown
-kramdown:
-    input: GFM
-highlighter: rouge
-paginate: 8
-lsi: false
-quiet: false
-excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
-gems:
-    - jekyll-github-metadata
-    - rouge
-#     - jekyll-html-pipeline
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
-#     - jekyll-mentions
-collections:
-    wiki:
-        output: true
-        permalink: /wiki/:path/
-
-repository: TinyQiang/TinyQiang.github.io
-
-# ---------------- #
-#      Comments    #
-# ---------------- #
-# support provider: disqus, gitment, gitalk
-comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username:
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner:
-    repo:
-    oauth:
-        client_id:
-        client_secret:
-# https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: TinyQiang
-    repo: TinyQiang.github.io
-    clientID: 9ba380c92e91d2a9b85c
-    clientSecret: 9def192ccb6d66bd07e9cdbd5d2a5181a600030c
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : false
-
-# ---------------- #
-#      Search      #
-# ---------------- #
-simple_jekyll_search:
-    # 是否支持全文搜索
-    fulltext: false
-    # 最多显示多少条搜索结果
-    limit: 10
-
-# ---------------- #
-#    Analytics     #
-# ---------------- #
-google:
-    analytics_id: UA-122302462-1
+# For about.html. Fell free to create your own!
+skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
+skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
+skill_mobile_app_keywords: [Android, Sketch UI Desgin]
