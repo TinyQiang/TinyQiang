@@ -14,8 +14,8 @@ company: 爱存不存
 description: This is personnel website of Tiny Qiang
 favicon: favicon.png # Image must be in assets/images
 
-url: https://tinyqiang.github.io/TinyQiang # the base hostname & protocol for your site
-root: /TinyQiang/
+url: https://tinyqiang.github.io/ # the base hostname & protocol for your site
+
 ## Gem
 gems:
   - jekyll-paginate
