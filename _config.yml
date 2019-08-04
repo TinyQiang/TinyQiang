@@ -5,9 +5,9 @@ baseurl:
 url: https://tinyqiang.github.io/TinyQiang/
 date_format: "ordinal"
 title: TinyQiang
-subtitle: "有梦才有精彩！"
+subtitle: "越是憧憬，越是要风雨兼程！"
 description: "TinyQiang's Blog"
-keywords: ShaneKiTinyQiangng, qiang
+keywords: TinyQiang, qiang
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
