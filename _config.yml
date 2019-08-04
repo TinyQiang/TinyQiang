@@ -15,7 +15,7 @@ description: This is personnel website of Tiny Qiang
 favicon: favicon.png # Image must be in assets/images
 
 url: https://tinyqiang.github.io/TinyQiang/ # the base hostname & protocol for your site
-
+root: /TinyQiang
 ## Gem
 gems:
   - jekyll-paginate
@@ -50,23 +50,23 @@ paginate_path: 'page:num'
 # Navigation
 navs:
   -
-    href: /TinyQiang/
+    href: /
     label: Home
 
   -
-    href: /TinyQiang/open-source
+    href: /open-source
     label: Open-Source
 
   -
-    href: /TinyQiang/blog
+    href: /blog
     label: Blog
 
   -
-    href: /TinyQiang/bookmark
+    href: /bookmark
     label: Bookmark
 
   -
-    href: /TinyQiang/about
+    href: /about
     label: About
 
 # Sidebar to show popular repo
