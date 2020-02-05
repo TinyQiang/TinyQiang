@@ -1,4 +1,4 @@
-# [TinyQiang's Blog][]
+# [Zachary's Blog][]
 Fork from [DONGChuan][].
 
 ## License
